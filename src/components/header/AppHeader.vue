@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <section class="d-flex justify-content-between">
+    <section class="d-flex justify-content-between align-items-center">
       <div>
         <h1>NPCs - Generator</h1>
       </div>
@@ -32,16 +32,16 @@ export default {
 <style scoped lang="scss">
   // titolo
   h1 {
-    font-family: 'Grenze Gotisch', sans-serif;
+    font-family: var(--main-font-family);
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: var(--main-title-size)
   }
 
   // lista
   ul {
     list-style-type: none;
-    font-family: 'Grenze Gotisch', sans-serif;
-    font-size: 2.3rem;
+    font-family: var(--main-font-family);
+    font-size: 2rem;
     font-weight: 600;
     gap: 15px;
   }
