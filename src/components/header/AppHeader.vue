@@ -3,6 +3,10 @@ export default {
   data() {
     return {
       name: 'AppHeader',
+      hamburgerMenu: [
+        'My Npcs',
+        'Feedback'
+      ],
     }
   },
   
@@ -16,7 +20,9 @@ export default {
       </div>
       <!-- sezione lista menu -->
       <div>
-
+        <ul>
+          <li v-for="item in hamburgerMenu">{{ item }}</li>
+        </ul>
       </div>
     </section>
 </template>
