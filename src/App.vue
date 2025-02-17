@@ -24,4 +24,9 @@ export default {
 </template>
 
 <style scoped lang="scss">
+
+div  {
+  background-color: #f39b6d;
+  color: #4B3F72;
+}
 </style>
