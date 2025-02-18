@@ -10,7 +10,6 @@ export default {
 
 <template>
   <section class="d-flex">
-    <!-- sezione possibili input -->
     <div id="input-field">
         <button>GENERA</button>
     </div>
@@ -24,9 +23,11 @@ export default {
 <style scoped lang="scss">
 
 section {
+
   #input-field {
     border: 5px solid red;
   }
+
   #result-field {
     border: 5px solid blue;
   }
