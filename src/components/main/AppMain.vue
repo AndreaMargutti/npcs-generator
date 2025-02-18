@@ -37,7 +37,7 @@ export default {
     </div>
     <!-- sezione display result -->
     <div id="result-field">
-
+      <h1>Qui ci sarà la scheda dell'NPC</h1>
     </div>
   </section>
 </template>
