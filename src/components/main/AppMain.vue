@@ -12,7 +12,7 @@ export default {
   <section class="d-flex">
     <!-- sezione possibili input -->
     <div id="input-field">
-        
+        <button>GENERA</button>
     </div>
     <!-- sezione display result -->
     <div id="result-field">
@@ -24,10 +24,10 @@ export default {
 <style scoped lang="scss">
 
 section {
-  :first-child{
+  #input-field {
     border: 5px solid red;
   }
-  :last-child {
+  #result-field {
     border: 5px solid blue;
   }
 
