@@ -29,6 +29,7 @@ export default {
 <style scoped lang="scss">
 
 div  {
+  padding: 5px;
   background-color: #f39b6d;
   color: #4B3F72;
 }
